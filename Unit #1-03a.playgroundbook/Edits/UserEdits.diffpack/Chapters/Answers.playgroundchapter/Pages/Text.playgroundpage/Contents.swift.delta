@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>// Created on: Sept 2018
+// Created by: Amin Zeina
+// Created for: ICS3U
+// This program calculates area and perimeter feom user inputs 
+
+show("What is the Area and Perimeter?")
+
+let length : Int = askForNumber("Length")
+let width : Int = askForNumber("Width") 
+
+let areaAnswer = show("The area is \(length * width) cm^2")
+let perimeterAnswer = show("The perimeter is \(2 * (length + width)) cm")
+</string>
+			<key>ModifiedRange</key>
+			<string>{145, 397}</string>
+			<key>OriginalContent</key>
+			<string>show("What is your name?")
+
+let name = ask("Name")
+
+show("Hi " + name)
+
+</string>
+			<key>OriginalRange</key>
+			<string>{145, 72}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Answers.playgroundchapter/Pages/Text.playgroundpage/Contents.swift</string>
+</dict>
+</plist>
